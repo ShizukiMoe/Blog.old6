@@ -1,0 +1,3 @@
+includeNewer = true
+threshold = 60
+toLower = false
