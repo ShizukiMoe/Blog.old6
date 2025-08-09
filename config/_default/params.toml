@@ -24,7 +24,7 @@ src = "img/avatar.jpg"
 [article]
 headingAnchor = false
 math = false
-readingTime = false
+readingTime = true
 
 [article.license]
 enabled = true
