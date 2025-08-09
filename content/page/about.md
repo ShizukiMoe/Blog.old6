@@ -8,4 +8,5 @@ menu:
 
 title: About
 layout: signal
+comments: false
 ---
