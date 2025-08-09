@@ -13,8 +13,8 @@ published = "2006.01.02"
 lastUpdated = "2006.01.02 15:04"
 
 [sidebar]
-#emoji = "🍥"
-#subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+emoji = "❄️"
+subtitle = "可愛いは正義です"
 
 [sidebar.avatar]
 enabled = true
