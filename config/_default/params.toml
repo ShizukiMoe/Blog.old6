@@ -1,6 +1,4 @@
-# Pages placed under these sections will be shown on homepage and archive page.
 mainSections = ["post"]
-# Output page's full content in RSS.
 rssFullContent = true
 favicon = "/favicon.png"
 
@@ -30,7 +28,6 @@ readingTime = true
 enabled = true
 default = "CC BY-NC-SA 4.0"
 
-## Widgets
 [[widgets.homepage]]
 type = "search"
 
@@ -55,15 +52,6 @@ limit = 10
 [[widgets.page]]
 type = "toc"
 
-[opengraph.twitter]
-site = "ShizukiNatsuki"
-card = "summary_large_image"
-
-[defaultImage.opengraph]
-enabled = false
-local = false
-src = ""
-
 [colorScheme]
 toggle = true
 default = "auto"
@@ -74,58 +62,9 @@ enabled = true
 [imageProcessing.content]
 enabled = true
 
-## Comments
 [comments]
 enabled = true
 provider = "giscus"
-
-[comments.disqusjs]
-shortname = ""
-apiUrl = ""
-apiKey = ""
-admin = ""
-adminLabel = ""
-
-[comments.utterances]
-repo = ""
-issueTerm = "pathname"
-label = ""
-
-[comments.remark42]
-host = ""
-site = ""
-locale = ""
-
-[comments.vssue]
-platform = ""
-owner = ""
-repo = ""
-clientId = ""
-clientSecret = ""
-autoCreateIssue = false
-
-[comments.waline]
-serverURL = ""
-lang = ""
-visitor = ""
-avatar = ""
-emoji = ["https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo"]
-requiredMeta = ["name", "email", "url"]
-placeholder = ""
-
-[comments.waline.locale]
-admin = "Admin"
-
-[comments.twikoo]
-envId = ""
-region = ""
-path = ""
-lang = ""
-
-[comments.cactus]
-defaultHomeserverUrl = "https://matrix.cactus.chat:8448"
-serverName = "cactus.chat"
-siteName = ""
 
 [comments.giscus]
 repo = "ShizukiMoe/Comment"
@@ -137,14 +76,3 @@ lightTheme = ""
 darkTheme = ""
 reactionsEnabled = 1
 emitMetadata = 0
-
-[comments.gitalk]
-owner = ""
-admin = ""
-repo = ""
-clientID = ""
-clientSecret = ""
-
-[comments.cusdis]
-host = ""
-id = ""

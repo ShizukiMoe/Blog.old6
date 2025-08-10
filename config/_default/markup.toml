@@ -1,12 +1,9 @@
-# Markdown renderer configuration
 [goldmark.renderer]
 unsafe = true
 
 [goldmark.extensions.passthrough]
 enable = true
 
-# LaTeX math support
-# https://gohugo.io/content-management/mathematics/
 [goldmark.extensions.passthrough.delimiters]
 block = [['\[', '\]'], ['$$', '$$']]
 inline = [['\(', '\)']]
